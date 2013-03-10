@@ -14,13 +14,13 @@ public class KSubjekti extends Subjekti {
 	public void setTila(int i){
 		this.tila=i;
 		
-		//Käytetään yliluokan metodia
-		//ilmoittamaan tarkkailijoille
+		// Käytetään yliluokan metodia
+		// ilmoittamaan tarkkailijoille
 		this.ilmoita();
 	}
 	
-	//Tilan palauttaja 
-	//Uudelleenmääritellään yliluokan metodi
+	// Tilan palauttaja 
+	// Uudelleenmääritellään yliluokan metodi
 	public int getTila (){
 		return this.tila;
 	}
